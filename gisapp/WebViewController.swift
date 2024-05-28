@@ -6,13 +6,18 @@
 //
 
 import UIKit
+import WebKit
 
 class WebViewController: UIViewController {
 
+    @IBOutlet weak var WebView: WKWebView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let urlLink = URL(string:"https://www.gis.tw/esg/")!
+        let request = URLRequest(url: urlLink)
+        WebView.load(request)
+
     }
     
 

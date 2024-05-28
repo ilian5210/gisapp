@@ -16,6 +16,8 @@
 		691BE2052BEA011B00C58D56 /* gisappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691BE2042BEA011B00C58D56 /* gisappTests.swift */; };
 		691BE20F2BEA011B00C58D56 /* gisappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691BE20E2BEA011B00C58D56 /* gisappUITests.swift */; };
 		691BE2112BEA011B00C58D56 /* gisappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691BE2102BEA011B00C58D56 /* gisappUITestsLaunchTests.swift */; };
+		691BE21E2BF33D9700C58D56 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691BE21D2BF33D9700C58D56 /* WebViewController.swift */; };
+		69BA96BD2BFC738200A58693 /* LaunchScreen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69BA96BC2BFC738200A58693 /* LaunchScreen2.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		691BE20A2BEA011B00C58D56 /* gisappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gisappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		691BE20E2BEA011B00C58D56 /* gisappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gisappUITests.swift; sourceTree = "<group>"; };
 		691BE2102BEA011B00C58D56 /* gisappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gisappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		691BE21D2BF33D9700C58D56 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		69BA96BC2BFC738200A58693 /* LaunchScreen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen2.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				691BE1F62BEA011B00C58D56 /* Assets.xcassets */,
 				691BE1F82BEA011B00C58D56 /* LaunchScreen.storyboard */,
 				691BE1FB2BEA011B00C58D56 /* Info.plist */,
+				691BE21D2BF33D9700C58D56 /* WebViewController.swift */,
+				69BA96BC2BFC738200A58693 /* LaunchScreen2.storyboard */,
 			);
 			path = gisapp;
 			sourceTree = "<group>";
@@ -231,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69BA96BD2BFC738200A58693 /* LaunchScreen2.storyboard in Resources */,
 				691BE1F72BEA011B00C58D56 /* Assets.xcassets in Resources */,
 				691BE1FA2BEA011B00C58D56 /* Base in Resources */,
 				691BE1F52BEA011A00C58D56 /* Base in Resources */,
@@ -261,6 +268,7 @@
 				691BE1F22BEA011A00C58D56 /* ViewController.swift in Sources */,
 				691BE1EE2BEA011A00C58D56 /* AppDelegate.swift in Sources */,
 				691BE1F02BEA011A00C58D56 /* SceneDelegate.swift in Sources */,
+				691BE21E2BF33D9700C58D56 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,8 +452,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gisapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "強強強";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen2.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -471,8 +480,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gisapp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "強強強";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen2.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
